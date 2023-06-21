@@ -7,8 +7,8 @@ import dotenv from 'dotenv'
 
 const Connection = async () => {
   console.log("go to db connect");
-  // const url = process.env.DATABASE
-  // const url ='mongodb+srv://Jenil45:Rb@45-93@messmanagement.wxqw4s9.mongodb.net/test'
+ // const url = process.env.DATABASE
+ // const url ='mongodb+srv://ashnichinnusam:ashezmongodb@cluster0.exukxfj.mongodb.net/messmate'
   await mongoose.connect(process.env.DATABASE).then(() => {
     console.log('Connection Successfull')
   }).catch((e)=> {
