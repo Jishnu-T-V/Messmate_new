@@ -19,7 +19,7 @@ const Navbar = () => {
           <img src={LogOut} alt="Svg" className="h-10" />
 
           <span className="ml-3 text-xl text-white hover:no-underline no-underline">
-            Mess Management
+            MessMate
           </span>
         </Link>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">

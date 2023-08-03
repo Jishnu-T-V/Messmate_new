@@ -56,54 +56,41 @@ function Info() {
               <div className="border-1 border-black rounded-xl p-5  bg-gray-200 shadow-xl">
                 <ol>
                   <li className="list-disc text-lg mb-3">
-                    The menu of the mess should be prepared by the prefects in
-                    consultation of the Warden. The menu so specified by the
-                    mess prefects will be duly approved by the Secretary, to
-                    have an effective control over the cost.
+                  Each hosteller will be provided with an account for MessMate and users can login 
+                    into MessMate using their personal unique credentials.
+
                   </li>
                   <li className="list-disc text-lg mb-3">
-                    In case of students who do not use mess facility for 3
-                    continuous days or more or going home during college
-                    vacation, with prior intimation, concession may be given by
-                    the Warden.
+                  The mess seceretaries are appointed by the warden.
                   </li>
                   <li className="list-disc text-lg mb-3">
-                    No food will be reserved for the late comers.
+                       The menu of the mess will be prepared by the mess secretaries in
+                      consultation of the Warden. The menu so specified by the
+                      mess seceretaries will be duly approved by the Warden, to
+                      have an effective control over the cost.
+
                   </li>
                   <li className="list-disc text-lg mb-3">
-                    The Mess rates will be calculated on the basis of dividing
-                    system & the same will be announced on the notice board
-                    every month. The hostelites Mess attendance , corresponding
-                    expenditure for every month with balance at their credit
-                    will also be displayed by the authorities.
+                  3 types of mess subscriptions are available : daily,weekly,monthly and each student can 
+                      choose a subscription of their convenience.
                   </li>
                   <li className="list-disc text-lg mb-3">
-                    Food will not be supplied to hostel rooms except to sick
-                    students, with the permission of the Warden and only sick
-                    diet (i.e. milk and bread) will be supplied. Used utensils
-                    shall be return to the mess immediately by the hostelite.
+                  The selected subscription will be activated from the next day itself.
                   </li>
                   <li className="list-disc text-lg mb-3">
-                    The boarders should produce identity cards whenever the mess
-                    supervisor/security feels to identify them before taking
-                    food.
+                  Each student will be provided with a QR code once they have access to a mess subscription and students have to provide their unique QR code at the mess to have 
+                    access to mess food.
+
                   </li>
                   <li className="list-disc text-lg mb-3">
-                    Except Mess prefects, other hostelites are forbidden to
-                    enter the kitchen. They should treat all the the Mess
-                    workers with courtesy. Manhandling of any staff or using
-                    abusive language against them will end in the expulsion of
-                    the student from the hostel immediately after due enquiry.
+                  Students cannot avail a new subscription until they have paid for their previously availed
+                    subscription.
+
                   </li>
                   <li className="list-disc text-lg mb-3">
-                    No student/prefect has any right to appoint or dispense with
-                    service of any staff member of the mess.
-                  </li>
-                  <li className="list-disc text-lg mb-3">
-                    Students who absent themselves on the date of reopening of
-                    the college after any semester vacation will be deemed to
-                    have joined the mess wherein they dined during the previous
-                    semester and will be charged accordingly.
+                   
+The kitchen expenses for every month shall be displayed on the mess notice board inorder to ensure
+                    a transperancy between the students and the management.
                   </li>
                 </ol>
                 <div>

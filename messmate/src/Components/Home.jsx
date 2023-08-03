@@ -1,5 +1,5 @@
 import React from "react";
-import homePng from "../Svg/Green Collage Daily Favorite Food Youtube Banner (3).png"
+import homePng from "../Svg/Green Collage Daily Favorite Food Youtube Banner (3).jpeg";
 const Home = () => {
   return (
   <>

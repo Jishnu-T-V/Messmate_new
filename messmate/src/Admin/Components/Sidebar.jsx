@@ -36,7 +36,7 @@ function Sidebar() {
       <ul className="flex flex-col   pl-0 mb-0 mt-2 gap-[.3rem] z-2">
         <li className=" w-full mt-4 hidden sm:block">
           <h6 className=" ml-2  text-center text-lg font-bold text-black leading-tight uppercase  opacity-100">
-            Hello Admin
+            Hello Warden!
           </h6>
         </li>
         <hr className="bg-black mt-3 hidden sm:block" />
@@ -73,7 +73,7 @@ function Sidebar() {
               <img src={verified} alt="sdfsd" className="h-[50px] w-[100px]" />
             </div>
             <span className="ml-1 text-[1rem] hidden sm:block text-black hover:text-black">
-              Daily Attendent
+              Daily Attendance
             </span>
           </Link>
         </li>
@@ -88,7 +88,7 @@ function Sidebar() {
               <img src={fingerprintScan} alt="sdfsd" className="h-[50px] w-[100px]" />
             </div>
             <span className="ml-1 text-[1rem] hidden sm:block text-black hover:text-black">
-              QR Attendent
+              QR Attendance
             </span>
           </Link>
         </li>
@@ -156,7 +156,7 @@ function Sidebar() {
               <img src={confused} alt="sdfsd" className="h-[50px] w-[100px]" />
             </div>
             <span className="ml-1 text-[1rem] hidden sm:block text-black hover:text-black">
-              All User Detail
+              All User Details
             </span>
           </Link>
         </li>
