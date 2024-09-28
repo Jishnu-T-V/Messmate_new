@@ -105,12 +105,12 @@ function Alluser() {
             <div className="flex items-center justify-center text-black">
               {user.role === 1 ? (
                 <p className="bg-lime-300 rounded-md p-[2.5px] px-2  text-black text-sm">
-                  Admin
+                  Warden
                 </p>
               ) : user.role === 2 ? (
-                <p className="px-2 text-black text-sm ">Employee</p>
+                <p className="px-2 text-black text-sm ">Secretary</p>
               ) : (
-                <p className="px-2 text-black text-sm ">User</p>
+                <p className="px-2 text-black text-sm ">Student</p>
               )}
             </div>
           </td>

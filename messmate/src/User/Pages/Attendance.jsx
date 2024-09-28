@@ -16,8 +16,8 @@ const Attendance = () => {
 
   // today date
   const [today, setToday] = useState({
-    month: 3,
-    year: 2023,
+    month: new Date().getMonth()+1,  // Months are zero-indexed in JavaScript (0 = January, 11 = December)
+    year: new Date().getFullYear(),    // Gets the full year
   });
 
   const [start, setStart] = useState({
@@ -50,12 +50,12 @@ const Attendance = () => {
   // set start current plan and end current plan
   var start_date = dayjs()
     .date(start.date)
-    .month(start.month)
+    .month(start.month-1)
     .year(start.year)
     .format();
   var end_date = dayjs()
     .date(end.date)
-    .month(end.month)
+    .month(end.month-1)
     .year(end.year)
     .format();
 
@@ -146,12 +146,12 @@ const Attendance = () => {
 
     var from = dayjs()
       .year(start.year)
-      .month(start.month)
+      .month(start.month-1)
       .date(start.date)
       .format();
     var to = dayjs()
       .year(end.year)
-      .month(end.month)
+      .month(end.month-1)
       .date(end.date)
       .endOf("day")
       .format();
@@ -325,7 +325,7 @@ const Attendance = () => {
     "July",
     "August",
     "September",
-    "Octomber",
+    "October",
     "December",
   ];
   return (
@@ -348,7 +348,7 @@ const Attendance = () => {
                 tabIndex={0}
                 className="focus:outline-none  text-base font-bold  text-gray-800"
               >
-                {monthname[today.month]} - {today.year}
+                {monthname[today.month-1]} - {today.year}
               </span>
               <div className="flex items-center">
                 <button
@@ -477,7 +477,7 @@ const Attendance = () => {
                   <div className="min-h-[25px] min-w-[25px] rounded-xl bg-lime-300 "></div>{" "}
                   <span className="text-base text-black font-semibold">
                     {" "}
-                    Current Plane
+                    Current Plan
                   </span>
                 </div>
               </div>
